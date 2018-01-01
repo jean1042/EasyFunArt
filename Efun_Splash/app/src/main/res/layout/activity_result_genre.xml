@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="result4  "
+        android:textSize="22dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        >
+        <Button
+            android:id="@+id/resultgenre_1_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            />
+        <Button
+            android:id="@+id/resultgenre_2_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/resultgenre_3_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        >
+        <Button
+            android:id="@+id/resultgenre_4_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/resultgenre_5_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/resultgenre_6_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        >
+        <Button
+            android:id="@+id/resultgenre_7_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/resultgenre_8_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/resultgenre_9_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        >
+        <Button
+            android:id="@+id/resultgenre_10_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/resultgenre_11_btn"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/resultgenre_prevButton_btn"
+            android:text="prev"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/resultgenre_nextButton_btn"
+            android:text="next"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="140dp">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
